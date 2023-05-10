@@ -343,7 +343,7 @@ header nav ul li a,
 .btn-trans {
     border: solid 1px #e6e6e5;
     font-size: 20px;
-    color: #b3b7b8;
+    color: #fff;
     text-transform: uppercase;
     border-radius: 0px;
     padding: 14px 20px;
@@ -507,9 +507,11 @@ header nav ul li a:hover {
 }
 .h-row1 p {
     font-size: 20px;
-    color: #b3b7b8;
+    color: #82ecce;
     line-height: 26px;
     margin: 0px 0px 20px;
+    background: gray;
+    opacity: 0.8;
 }
 .h-row1 p strong {
     color: #fff;
@@ -555,6 +557,7 @@ header nav ul li a:hover {
     height: 20px;
     display: inline-block;
     margin-right: 30px;
+    filter: hue-rotate(235deg);
 }
 .h-row1 .h-row-bottom a.hrb-left {
     text-align: right;
@@ -1001,6 +1004,7 @@ header nav ul li a:hover {
     top: 0;
     left: -15px;
     z-index: 99;
+    filter: hue-rotate(130deg);
 }
 .h-row10 .h-row10-inner {
     padding-left: 50px;
