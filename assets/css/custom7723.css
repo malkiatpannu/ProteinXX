@@ -55,16 +55,16 @@
 }
 
 #machine img {
-  filter: hue-rotate(250deg);
+    filter: hue-rotate(250deg);
 }
 .h-row4.specs {
-  filter: hue-rotate(235deg);
+    filter: hue-rotate(235deg);
 }
 .shake-bg2 {
-  filter: hue-rotate(235deg);
+    filter: hue-rotate(235deg);
 }
 img {
-  filter: hue-rotate(245deg);
+    filter: hue-rotate(245deg);
 }
 .ohnohoney{
     opacity: 0;
@@ -75,7 +75,18 @@ img {
     width: 0;
     z-index: -1;
 }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 
+.sticky + .content {
+    padding-top: 102px;
+}
 @media(max-width: 767px){
     .logo-wrapper img{
         max-width: 100%;
