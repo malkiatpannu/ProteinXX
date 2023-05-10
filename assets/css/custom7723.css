@@ -1,0 +1,13 @@
+.logo-wrapper img{
+	max-width: 321px;
+}
+
+.footer-logo img{
+	max-width: 192px;
+}
+
+@media(max-width: 767px){
+	.logo-wrapper img{
+		max-width: 100%;
+	}
+}
