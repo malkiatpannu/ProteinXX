@@ -43,6 +43,29 @@
     display: none;
 }
 
+.logo-wrapper img {
+    filter: hue-rotate(235deg);
+}
+
+.mm.hr3-right li {
+    filter: hue-rotate(235deg);
+}
+.mm.hr3-right li p {
+    filter: hue-rotate(111deg);
+}
+
+#machine img {
+  filter: hue-rotate(250deg);
+}
+.h-row4.specs {
+  filter: hue-rotate(235deg);
+}
+.shake-bg2 {
+  filter: hue-rotate(235deg);
+}
+img {
+  filter: hue-rotate(245deg);
+}
 .ohnohoney{
     opacity: 0;
     position: absolute;
